@@ -33,8 +33,3 @@ The dataset used for this project is publicly available on Kaggle:
 - **Test RMSE**: `6434.15`
 
 ✅ This means the model can explain around **80%** of the variance in vehicle prices—strong for such a diverse dataset.
-
----
-
-## 📁 Project Structure
-
