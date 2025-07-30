@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load model and encoder
-model = joblib.load("lightgbm_model.pkl")  # Update with your actual model filename
-encoder = joblib.load("encoder.pkl")       # If you used OneHotEncoder or similar
+model = joblib.load("gbm.pkl")  # model filename
+encoder = joblib.load("encoder.pkl")       # used OneHotEncoder 
 
 st.title("🚗 Vehicle Price Prediction App")
 st.write("Enter vehicle details to estimate its price.")
