@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Pip build artifacts
+*.whl
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# Streamlit cache
+.streamlit/
+
+# Logs & data
+*.log
+*.csv
+
+# Notebooks
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
